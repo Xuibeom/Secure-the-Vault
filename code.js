@@ -12,6 +12,17 @@ You must use three different arithmetic operators that will generate each indivi
 5. Create a dialog box displaying the vault codes and the text if using HTML and a script tag, or create a popup dialog.
 */
 
-// Step one: declare the message as a variable
+// Step one: Declare the message as a variable
 
-let message = "";
+let message =
+  "You have received this message because you have been chosen to open an important vault. Here is the secret combination: ";
+
+// Step two: Set each combination number as a variable as the sum of a corresponding calculation using a const keyword
+
+const num1 = 5 + 5;
+const num2 = num1 * 4;
+const num3 = num2 - 1;
+
+// Step 3: Set up the alert for the webpage and use string literals to connect the elements together
+
+alert(`${message} ${num1} - ${num2} - ${num3}`);
